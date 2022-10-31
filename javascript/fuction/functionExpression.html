@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" language="javascript">
+        //var firstName = document.getElementById("firstName").value;
+        //var lastName = document.getElementById("lastName").value;
+        function fullname(firstName,lastName){
+            document.getElementById("text").innerHTML = combinesName(firstName,lastName);
+        }
+
+        var combinesName = function(fname,lname){
+            return `${fname}, ${lname}`;
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="firstName" id="firstName"/>
+    <input type="text" name="lastName" id="lastName"/>    
+    <button type="submit" onClick="fullname(document.getElementById('firstName').value,document.getElementById('lastName').value)">Submit</button>
+    <p id="text"></p>
+</body>
+</html>

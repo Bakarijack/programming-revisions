@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" language="javascript" src="secondFuction.js"></script>
+</head>
+<body>
+    <p>Click the button to call the function</p>
+    <form >
+        <input type="button" onclick="a()" value="click here">
+    </form>
+    <script language="javascript">
+        var add =  new Function("num1","num2","return num1 + num2");
+        document.write(add(5,4));
+    </script>
+</body>
+</html>

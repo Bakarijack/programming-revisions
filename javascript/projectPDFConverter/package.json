@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "docx": "^7.3.0",
+    "docx-pdf": "^0.0.1",
+    "docx-pdf-pagecount": "^0.0.3",
+    "docxtopdf-cli": "^1.1.0",
+    "ebook-convert": "^2.0.1",
+    "epubjs": "^0.3.88",
+    "jspdf": "^2.5.1",
+    "node-pandoc": "^0.3.0"
+  },
+  "type": "module"
+}

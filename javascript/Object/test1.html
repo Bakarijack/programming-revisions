@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        var obj ={
+            fname : 'Bakari',
+            lname : 'Kilu',
+            describe: function(){
+                return 'he is 25 years';
+            }
+
+        };
+        document.write(`${obj.fname} ${obj.lname}`);
+        document.write("<br/>");
+        document.write(obj['describe']());
+        document.write("<br/>");
+        document.write(delete obj['lname']);
+        document.write("<br/>");
+        document.write(Object.keys(obj));
+        
+
+
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Test creation of elements</h3>
+
+    <!--script  for creating the elements-->
+    <script type="text/javascript">
+        var element = document.createElement('p');
+        var element2 = document.createElement("p");
+        element.textContent = "Bakari Kilu";
+        element2.textContent = "Mtua";
+        document.body.appendChild(element);
+        document.body.appendChild(element2);
+        window.alert("Hello World");  //you can also use alert() since window is a global object in js
+    </script>
+    
+</body>
+</html>
